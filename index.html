@@ -5,14 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brianne Camesi - Weather App</title>
-    <script
-  src="https://code.jquery.com/jquery-3.6.1.js"
-  integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
-  crossorigin="anonymous"></script>
-    <script src="app.js" defer></script>
-    <link rel="stylesheet" href="style.css">
 </head>
+
+
+<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+<script src="app.js" defer></script>
+<link rel="stylesheet" href="style.css">
+
+
 <body>
-    <h1>Weather App</h1>
+    
+    <div id="searchBox">
+        <h2>Search Weather by City</h2>
+        <input type="text" id="weatherSearch" placeholder="City Name" />
+        <button type="button" id="searchButton">Search</button>
+    </div>
+
+    <div id="results">
+        <div id="weatherResults"></div>
+    </div>
+    
 </body>
 </html>
