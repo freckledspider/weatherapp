@@ -11,19 +11,21 @@
 <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 <script src="app.js" defer></script>
 <link rel="stylesheet" href="style.css">
-
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 
 <body>
-    
-    <div id="searchBox">
+    <div class="container">
+    <div id="searchBox" class="searchBox">
         <h2>Search Weather by City</h2>
         <input type="text" id="weatherSearch" placeholder="City Name" />
-        <button type="button" id="searchButton">Search</button>
+        <button type="button" id="searchButton" class="search">Search</button>
     </div>
 
-    <div id="results">
+    <div id="results" class="results">
         <div id="weatherResults"></div>
     </div>
-    
+    </div>
 </body>
 </html>

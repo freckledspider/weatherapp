@@ -1,0 +1,85 @@
+body {
+    background-color: #020c0e;
+    background: linear-gradient(to bottom, transparent, #020c0e 300px), url("bg.jpg");
+    background-position: center ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff0db;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.container {
+    margin: auto;
+    width: 700px;
+    padding: 0px;
+}
+
+.searchBox {
+    text-align: center;
+    width: 800px;
+    height: 300px;
+    padding-top: 10px;
+}
+
+.results {
+    text-align: center;
+    padding-top: 0px;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #fff0db;
+    font-size: 50px;
+}
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #fff0db;
+    font-size: 25px;
+}
+
+input {
+    opacity: 0.5;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+    border: none;
+    background-color: #fff0db;
+    color:#020c0e;
+}
+
+.search {
+    color: #fff0db;
+    opacity: 0.8;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+    background-color: #020c0e;
+    border: none;
+}
+
+.newsearch {
+    background-color: #fff0db;
+    opacity: 0.8;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 20px;
+    border: none;
+}

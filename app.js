@@ -28,11 +28,11 @@ const getWeatherResults = () => {
 
 			weatherResults.innerHTML = `
 
-<h2>Weather for ${city}</h2>
+<h3>Weather for ${city}</h3>
 Currently: ${description} <br/ >
 Temperature: ${convertTemp(temp)}° F <br />
 Humidity: ${humidity}% <br /><br />
-<button onClick="window.location.reload();">New Search</button>
+<button onClick="window.location.reload();" class="newsearch">New Search</button>
 `
 ;})
 };
