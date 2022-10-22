@@ -16,9 +16,9 @@ const getWeatherResults = () => {
 
 // setting up the apiCall with the correct URL and api key
 
-	let city = weatherSearch.value;
-	let apiKey = `a956d83233e262ee0bb7c490cc4ad988`;
-	let apiCall = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
+	const city = weatherSearch.value;
+	const apiKey = `a956d83233e262ee0bb7c490cc4ad988`;
+	const apiCall = `https://api.openweathermap.org/data/2.5/forecast?q=${city}&appid=${apiKey}`;
 
 // used fetch() because i did not know how else to get this to work for me
 // ajax was not working for me, not sure why
