@@ -35,7 +35,7 @@ const getWeatherResults = () => {
 // insert results in HTML into the weaterResults div
 // plus a refresh button to create a new search
 
-			weatherResults.innerHTML = `
+weatherResults.innerHTML = `
 
 <h3>Weather for ${city}</h3>
 Currently: ${description} <br/ >
@@ -44,6 +44,7 @@ Humidity: ${humidity}% <br /><br />
 <button onClick="window.location.reload();" class="newsearch">New Search</button>
 `
 ;})
+
 };
 
 // onclick function to get weather search results
